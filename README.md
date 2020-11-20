@@ -1,2 +1,2 @@
-# seanrox_Portfolio
+# seanrox_portfolio
 My Portfolio site 
