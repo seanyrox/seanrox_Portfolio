@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 80px;
+}
 
 h4 {
     font-family: 'Roboto', sans-serif;
@@ -11,7 +17,8 @@ h4 {
 .h1intro {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4em;
+    color: #242120;
 }
 
 h2,h3,h4,h5,h6,p {
@@ -22,3 +29,43 @@ h2,h3,h4,h5,h6,p {
 li {
     text-transform: uppercase;
 }
+
+.h1intro  mark {
+    color: #242120;
+    background-color:#e88a03;
+    
+    
+}
+
+
+
+nav {
+     
+    background-color: #ffffff;
+    height: 60px;   
+}
+
+.navbar .navbar-brand   {
+    color: #242120;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+}
+
+.navbar .navbar-brand:hover  {
+   text-decoration: underline;
+ 
+  
+}
+.navbar .nav-item a {
+    color: #242120 !important;
+}
+
+.navbar .nav-item a:hover {
+    color: white !important;
+  background-color: black;
+  border-radius: 3px;
+  
+   
+}
+
