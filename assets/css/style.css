@@ -81,12 +81,19 @@ nav {
 }
 
 .navbar .navbar-brand   {
-    color: #242120;
+     color: #242120;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
+    padding-top: .375rem; padding-bottom: .375rem; 
  
 }
+
+.navbar-nav {
+     background-color: rgba(0,0,0,.4); text-align: right; 
+} 
+
+
 
 .navbar .navbar-brand:hover  {
    text-decoration: underline;
@@ -94,8 +101,8 @@ nav {
 
  .navbar .nav-item .linkcolor {
     color: #242120;
-     padding-right: 10px;
-     padding-left:10px;
+    padding-right: 10px;
+    padding-left:10px;
     
 }
 
@@ -286,6 +293,7 @@ padding: 50px 0 25px 0;
 
 .hori-timeline .events {
     border-top: 3px solid #e9ecef;
+    
     
 }
 .hori-timeline .events .event-list {
@@ -602,6 +610,12 @@ footer {
     margin-bottom: 60px;
 }
 
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+     display: flex; 
+    
+}
+
   }
 
   @media all and (min-width: 961px) {
@@ -609,9 +623,17 @@ footer {
       .blockquote {
           font-size: 3rem;
       }
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+     display: flex; 
+    
+}
+
   }
 
-
+@media (min-width: 768px) {
+.navbar-nav { background-color: transparent; }
+}
 
 /*------------------------------------------/media queries------------------------------*/
 
