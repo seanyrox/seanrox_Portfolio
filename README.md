@@ -2,7 +2,7 @@
 <h1 align="center">Sean Rox Portfolio Site- First milestone project</h1>
 <h1 align="center"><img src="/assets/readme/mywebsite.jpg"/></h1>
 
- <a href="https://seanyrox.github.io/seanrox_portfolio/"></a>  Live Website
+ <a href="https://seanyrox.github.io/seanrox_portfolio/">  Live Website
 
   <a href="https://github.com/seanyrox/seanrox_portfolio">GitHub Repository
  
@@ -14,25 +14,6 @@ It showcases my skills in different screen resolutions as its responsive.
  
 
 
-## Table of Contents
-
-[User Experience (UX)](#UX)
-
-[Features](#features)
-
-[Technologies Used](#technologies)
-
-[Testing](#testing)
-
-[Deployment](#deployment)
-
-[Snaglist](#bugs)
-
-[Credits](#credits)
-
-
-
-<a name="UX"></a>
 ## User Experience (UX)
 
 ### User Stories
@@ -83,7 +64,6 @@ It showcases my skills in different screen resolutions as its responsive.
 
 
 
- <a name="features"></a>
 ## Features
 
 ### Features
@@ -142,7 +122,7 @@ It showcases my skills in different screen resolutions as its responsive.
 - A "Thank you for submitting" text once a visitor submits the contact form. 
 - Testimonial section 
 
-<a name="technologies"></a>
+
 ## Technologies Used
 
 
@@ -179,7 +159,7 @@ It showcases my skills in different screen resolutions as its responsive.
 
 
 
-<a name="#testing"></a>
+<
 ## Testing
 
 - **HTML:** https://validator.w3.org/ was used to check for discrepancies in the html code for validation purpose.
@@ -214,7 +194,7 @@ It showcases my skills in different screen resolutions as its responsive.
 - I made sure to get friends to test my sites usability and one friend spotted an text overflow on her mobile device which I quickly amended with media queries.
 - I used the dev tools in Google Chrome to inspect the responsivness on different screen resolutions. 
 
-<a name="bugs"></a>
+
 ### Bugs & Snaglist:
 
 - I had a overflow problem offsetting my layout, I couldn't find any solutions. I posted it on slack and a fellow student identified the problem. 
@@ -227,7 +207,7 @@ It showcases my skills in different screen resolutions as its responsive.
 
 
 
-<a name="deployment"></a>
+
 ## Deployment
 
 ### Publishing
@@ -240,13 +220,13 @@ I used [GitHub Pages](https://pages.github.com/) to deploy my website. To deploy
 
 
 
-<a name="credits"></a>
+
 ## Credits
 
 ### Code :
 
 - Bootstrap library was used to create a responsive design and create form, navbar, footer, Timeline, and progressbar.
-- I watched flex properties online to understand positionin [Youtube](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=372s)
+- I watched flex properties online to understand positioning [Youtube](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=372s)
 - To create a full covered background I sampled following code [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 - To create vertical smooth scroll effect I sampled  [scroll effect](https://www.w3schools.com/cssref/pr_scroll-behavior.asp)
 - To create CSS animations I used css generator [Animista](https://animista.net/play/entrances/slide-in/slide-in-left)
