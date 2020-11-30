@@ -73,7 +73,7 @@ nav {
     padding-right: 0;
     
 }
-   
+
     
 
 .navbar .navbar-toggler {
@@ -85,6 +85,7 @@ nav {
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
+ 
 }
 
 .navbar .navbar-brand:hover  {
@@ -93,6 +94,8 @@ nav {
 
  .navbar .nav-item .linkcolor {
     color: #242120;
+     padding-right: 10px;
+     padding-left:10px;
     
 }
 
@@ -110,6 +113,10 @@ nav {
 .fixed-top {
 box-shadow: 2px 2px 4px 7px rgb(226, 226, 226);
 }
+
+
+navbar-brand { padding-top: .375rem; padding-bottom: .375rem; } << CHANGE PADDING
+.navbar-nav { background-color: rgba(0,0,0,.6); text-align: right; } 
 
 
 /*------------------/Navigation---------------------*/
@@ -167,8 +174,8 @@ box-shadow: 2px 2px 4px 7px rgb(226, 226, 226);
  .container-about {
 
        background-color: rgb(223, 223, 223);
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 50px;
+      padding-bottom: 25px;
   }
 
  
@@ -260,7 +267,7 @@ box-shadow: 2px 2px 4px 7px rgb(226, 226, 226);
 
 
 
-/*-----------------------------------emplyment----------------------------------------------------*/
+/*-----------------------------------employment----------------------------------------------------*/
 
 .container-employment {
 
@@ -279,6 +286,7 @@ padding: 50px 0 25px 0;
 
 .hori-timeline .events {
     border-top: 3px solid #e9ecef;
+    
 }
 .hori-timeline .events .event-list {
     display: block;
@@ -342,6 +350,8 @@ padding: 50px 0 25px 0;
 
 
 
+
+
 /*-----------------------------------/employment----------------------------------------------------*/
 
 
@@ -354,8 +364,9 @@ padding: 50px 0 25px 0;
 
 .container-logo {
     
-    padding: 50px 0;
-    margin-bottom: 10px;
+   padding-top: 50px; 
+   padding-bottom: 50px;
+   margin-bottom: 10px;
 
 }
 
@@ -443,7 +454,7 @@ small {
 
     font-size: 12px;
     text-transform: none;
-    color: lightgray;
+    color: rgb(129, 129, 129);
 }
 
 .btn-grey {
