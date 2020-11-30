@@ -189,6 +189,7 @@ box-shadow: 2px 2px 4px 7px rgb(226, 226, 226);
  
   .title-aboutme {
       padding-bottom: 40px;
+      padding-top: 20px;
       font-size: 40px;
   }
 
@@ -456,6 +457,7 @@ font-weight: bold;
  
  .title-contact {
     padding-bottom: 40px;
+    padding-top: 20px;
     font-size: 40px;
  }
 
@@ -591,6 +593,12 @@ footer {
     font-size: 25px;
     
 }
+
+ .title-contact {
+    padding-bottom: 40px;
+    padding-top: 50px;
+    font-size: 40px;
+ }
 
   }
 
