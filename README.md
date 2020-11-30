@@ -1,18 +1,3 @@
-# seanrox_portfolio
-My Portfolio site 
-
-Trouble Shooting
-couldn't expand colapse toggle menu burger in nav - found solution = https://www.youtube.com/watch?v=-0TmFPOEFPw
-Fixed-navbar hides portion of container, found solution how to lower it-https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top
-style navbar - https://www.youtube.com/watch?v=3Yc7TVZo3h0
-
-
-tutorials:
-
-https://css-tricks.com/snippets/css/text-rotation/
-
-
-
 
 <h1 align="center">Sean Rox Portfolio Site- First milestone project</h1>
 <h1 align="center"><img src="/assets/readme/mywebsite.jpg"/></h1>
@@ -41,7 +26,7 @@ It showcases my skills in different screen resolutions as its responsive.
 
 [Deployment](#deployment)
 
-[Known Bugs](#bugs)
+[Snaglist](#bugs)
 
 [Credits](#credits)
 
@@ -95,11 +80,6 @@ It showcases my skills in different screen resolutions as its responsive.
 
     <img src="/assets/readme/finalwireframes.png"/>
      
-
-   
-
-
-
 
 
 
@@ -201,6 +181,96 @@ It showcases my skills in different screen resolutions as its responsive.
 
 <a name="#testing"></a>
 ## Testing
+
+- **HTML:** https://validator.w3.org/ was used to check for discrepancies in the html code for validation purpose.
+- **CSS:** https://jigsaw.w3.org/css-validator/#validate_by_input to validate my css code. 
+
+    I ran my HTML code through the validator and a few minor errors to due with Bad value name for attribute and an odd typo.
+    this was all corrected. I had no warnings in the css file. 
+
+### Functionality and Responsivness check 
+
+    After correcting the errors that showed up in the HTML/CSS validator I set out to test all the features In my website 
+    in all the default bootstrap screen resolutions. 
+    
+- #### Navigation
+    - The brand link(Sean Rox) in the top right brings the user back to the top of the website, it works in all screen resolutions.  
+    - The remainder of links on the right hand side of the fixed navigation (about, brand and contact) scroll vertically down to respective section. 
+    - When the screen is resized to mobile screens the hamburger menu appears and the links work accordingly. 
+
+- #### Contact form
+        - Name is required.
+        - Email is required and it has to be entered in a valid format.
+        - Text field needs to be populated.
+        - Once all fields have been populated you can then 'Submit'.
+
+- #### Footer
+    - Located at bottom of the page. 
+    - There is 1 link dedicated to downloading my CV. It downloads my .rtf file once clicked. 
+    - There are 3 Social media links which refer you to their website in a new window once clicked.
+    
+
+### Additional testing
+- I made sure to get friends to test my sites usability and one friend spotted an text overflow on her mobile device which I quickly amended with media queries.
+- I used the dev tools in Google Chrome to inspect the responsivness on different screen resolutions. 
+
+<a name="bugs"></a>
+### Bugs & Snaglist:
+
+- I had a overflow problem offsetting my layout, I couldn't find any solutions. I posted it on slack and a fellow student identified the problem. 
+  The lesson is to never remove default left/right padding on bootstrap container. 
+
+- another issue I stumbled on was knowing how to center elements in xy axis. My friend recommended following video:
+  https://www.youtube.com/watch?v=JJSoEo8JSnc&t=372s
+
+- I couldn't expand/collapse Hamburger toggle menu untill I found  https://www.youtube.com/watch?v=-0TmFPOEFPw
+
+
+
+<a name="deployment"></a>
+## Deployment
+
+### Publishing
+
+I used [GitHub Pages](https://pages.github.com/) to deploy my website. To deploy your website see below instructions:
+1. Log in to your Github profile on Github and select your respository ([My Repository](https://github.com/seanyrox/seanrox_portfolio) which is located on the left hand side.
+2. Once in your repository you will find a tab called setting right above the green "gitpod" button. 
+4. Proceed by clicking on settings and then scroll down to "Github pages" and select master and hit save. This will publish your page and give you a link.  
+
+
+
+
+<a name="credits"></a>
+## Credits
+
+### Code :
+
+- Bootstrap library was used to create a responsive design and create form, navbar, footer, Timeline, and progressbar.
+- I watched flex properties online to understand positionin [Youtube](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=372s)
+- To create a full covered background I sampled following code [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+- To create vertical smooth scroll effect I sampled  [scroll effect](https://www.w3schools.com/cssref/pr_scroll-behavior.asp)
+- To create CSS animations I used css generator [Animista](https://animista.net/play/entrances/slide-in/slide-in-left)
+- I used a bootstrap css timeline and customised it to suit my website [Timeline]( https://www.bootdey.com/snippets/view/simple-horizontal-timeline)
+
+### Content :book:
+
+- As a reference to write my README I used following:
+    - Code Institute [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+    - Code Institute [README Template](https://github.com/Code-Institute-Solutions/readme-template)
+    - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+  
+
+### Media
+- The background white brick image was found on google image search.[Bricks](https://www.freepik.com/free-photos-vectors/white-brick-wall)
+- Mock up of differet screens template [Screen template](https://mockuptree.com/free/category/app-screen-mockup/)
+
+
+### Acknowledgements
+
+- I would like to thank the slack community for their invaluable feedback and problem solving. 
+-  I want to give big thanks to my Mentor Maranatha Ilesanmi who shared his insights and who helped me understand the process of webdesign. 
+
 
 
 
